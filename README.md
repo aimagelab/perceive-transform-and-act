@@ -4,7 +4,7 @@ This is the PyTorch implementation of our paper:
 **Perceive, Transform, and Act: Multi-Modal Attention Networks for Vision-and-Language Navigation**<br>
 __***Federico Landi***__, Lorenzo Baraldi, Marcella Cornia, Massimiliano Corsini, Rita Cucchiara<br>
 
-Our repository is based on the [Matterport3D simulator](https://github.com/peteanderson80/Matterport3DSimulator), which was originally proposed with the Room-to-Roon dataset.
+Our repository is based on the [Matterport3D simulator](https://github.com/peteanderson80/Matterport3DSimulator), which was originally proposed with the Room-to-Room dataset.
 
 ## Installation
 
