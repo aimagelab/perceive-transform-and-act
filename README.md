@@ -1,12 +1,22 @@
 # Perceive, Transform, and Act
 This is the PyTorch implementation of our paper:
 
-**Perceive, Transform, and Act: Multi-Modal Attention Networks for Vision-and-Language Navigation**<br>
+**Multimodal Attention Networks for Low-Level Vision-and-Language Navigation** ([paper](https://arxiv.org/abs/1911.12377))<br>
 __***Federico Landi***__, Lorenzo Baraldi, Marcella Cornia, Massimiliano Corsini, Rita Cucchiara<br>
+*Computer Vision and Image Understanding (CVIU), 2021*
 
-Our repository is based on the [Matterport3D simulator](https://github.com/peteanderson80/Matterport3DSimulator), which was originally proposed with the Room-to-Room dataset.
+## Table of contents
+   1. [Installation](#installation)
+   2. [Training and Testing](#training-and-testing)
+   3. [Visualizing Navigation Episodes](#visualizing-navigation-episodes)
+   4. [Reproducibility Note](#reproducibility-note)
+   5. [Citing](#citing)
+   6. [License](#license)
+   7. [Acknowledgments](#acknowledgments)
 
 ## Installation
+
+Our repository is based on the [Matterport3D simulator](https://github.com/peteanderson80/Matterport3DSimulator), which was originally proposed with the Room-to-Room dataset.
 
 As a first step, clone the repository and create the environment with conda:
 
@@ -112,3 +122,26 @@ To make our qualitative results easier to visualize, we provide some .gif files 
 ## Reproducibility Note
 
 Our experiments were made using an Nvidia 1080Ti GPU, CUDA 10.0, and python 3.6.8. Using different hardware setups or software versions may affect results.
+
+## Citing
+
+If you find our code useful for your research, please cite our paper:
+
+#### Bibtex:
+```
+@article{landi2021multimodal,
+  title={Multimodal attention networks for low-level vision-and-language navigation},
+  author={Landi, Federico and Baraldi, Lorenzo and Cornia, Marcella and Corsini, Massimiliano and Cucchiara, Rita},
+  journal={Computer Vision and Image Understanding},
+  year={2021},
+  publisher={Elsevier}
+}
+```
+
+## License
+PTA is MIT licensed. See the [LICENSE file](LICENSE) for details.
+
+The trained models are considered data derived from the correspondent scene datasets.
+
+## Acknowledgments
+This work has been supported by "Fondazione di Modena" and by the national project "IDEHA: Innovation for Data Elaboration in Heritage Areas" (PON ARS01\_00421), cofunded by the Italian Ministry of University and Research.
